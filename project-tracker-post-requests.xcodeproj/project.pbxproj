@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50E2D575232A8B5500E95BA2 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2D574232A8B5500E95BA2 /* Secrets.swift */; };
 		543AB10E2327F67A005B0E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB10D2327F67A005B0E32 /* AppDelegate.swift */; };
 		543AB1102327F67A005B0E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB10F2327F67A005B0E32 /* ViewController.swift */; };
 		543AB1132327F67A005B0E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543AB1112327F67A005B0E32 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		543AB1182327F67C005B0E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543AB1162327F67C005B0E32 /* LaunchScreen.storyboard */; };
 		543AB1262327F718005B0E32 /* project_tracker_post_requestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB1252327F718005B0E32 /* project_tracker_post_requestsTests.swift */; };
 		543AB12E2327F755005B0E32 /* testing-json.json in Resources */ = {isa = PBXBuildFile; fileRef = 543AB12D2327F755005B0E32 /* testing-json.json */; };
-		543AB1322327F95A005B0E32 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB1312327F95A005B0E32 /* Secrets.swift */; };
 		543AB134232A738B005B0E32 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB133232A738B005B0E32 /* AppError.swift */; };
 		543AB136232A73B7005B0E32 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB135232A73B7005B0E32 /* NetworkHelper.swift */; };
 		543AB138232A7414005B0E32 /* ProjectAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB137232A7414005B0E32 /* ProjectAPIClient.swift */; };
@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50E2D574232A8B5500E95BA2 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		543AB10A2327F67A005B0E32 /* project-tracker-post-requests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-tracker-post-requests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543AB10D2327F67A005B0E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		543AB10F2327F67A005B0E32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		543AB1272327F718005B0E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		543AB12D2327F755005B0E32 /* testing-json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "testing-json.json"; sourceTree = "<group>"; };
 		543AB12F2327F803005B0E32 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Project.swift; path = "project-tracker-post-requestsTests/Project.swift"; sourceTree = SOURCE_ROOT; };
-		543AB1312327F95A005B0E32 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		543AB133232A738B005B0E32 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		543AB135232A73B7005B0E32 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		543AB137232A7414005B0E32 /* ProjectAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAPIClient.swift; sourceTree = "<group>"; };
@@ -93,7 +93,6 @@
 				543AB10D2327F67A005B0E32 /* AppDelegate.swift */,
 				543AB10F2327F67A005B0E32 /* ViewController.swift */,
 				543AB12F2327F803005B0E32 /* Project.swift */,
-				543AB1312327F95A005B0E32 /* Secrets.swift */,
 				543AB133232A738B005B0E32 /* AppError.swift */,
 				543AB135232A73B7005B0E32 /* NetworkHelper.swift */,
 				543AB137232A7414005B0E32 /* ProjectAPIClient.swift */,
@@ -102,6 +101,7 @@
 				543AB1162327F67C005B0E32 /* LaunchScreen.storyboard */,
 				543AB1192327F67C005B0E32 /* Info.plist */,
 				543AB12D2327F755005B0E32 /* testing-json.json */,
+				50E2D574232A8B5500E95BA2 /* Secrets.swift */,
 			);
 			path = "project-tracker-post-requests";
 			sourceTree = "<group>";
@@ -220,8 +220,8 @@
 				543AB134232A738B005B0E32 /* AppError.swift in Sources */,
 				543AB1102327F67A005B0E32 /* ViewController.swift in Sources */,
 				543AB136232A73B7005B0E32 /* NetworkHelper.swift in Sources */,
+				50E2D575232A8B5500E95BA2 /* Secrets.swift in Sources */,
 				543AB138232A7414005B0E32 /* ProjectAPIClient.swift in Sources */,
-				543AB1322327F95A005B0E32 /* Secrets.swift in Sources */,
 				543AB139232A7463005B0E32 /* Project.swift in Sources */,
 				543AB10E2327F67A005B0E32 /* AppDelegate.swift in Sources */,
 			);
