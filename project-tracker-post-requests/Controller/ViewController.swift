@@ -29,6 +29,9 @@ class ProjectsViewController: UIViewController {
         configureTableView()
         loadData()
     }
+    override func viewDidAppear(_ animated: Bool) {
+        loadData()
+    }
     
     // MARK: - Private Methods
     

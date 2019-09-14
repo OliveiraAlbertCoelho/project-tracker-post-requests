@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5061A026232BF6A4008F3618 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061A025232BF6A4008F3618 /* UserViewController.swift */; };
+		5061A028232BF6CA008F3618 /* UserAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061A027232BF6CA008F3618 /* UserAddViewController.swift */; };
+		5061A02A232BF71B008F3618 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061A029232BF71B008F3618 /* UserModel.swift */; };
+		5061A02C232BF808008F3618 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061A02B232BF808008F3618 /* UserApi.swift */; };
+		5061A033232C5F1F008F3618 /* MyUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061A032232C5F1F008F3618 /* MyUserTableViewCell.swift */; };
+		5061A035232C7253008F3618 /* imageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061A034232C7253008F3618 /* imageHelper.swift */; };
 		50E2D575232A8B5500E95BA2 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2D574232A8B5500E95BA2 /* Secrets.swift */; };
+		50E2D577232A9B8B00E95BA2 /* CreateProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2D576232A9B8B00E95BA2 /* CreateProjectViewController.swift */; };
 		543AB10E2327F67A005B0E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB10D2327F67A005B0E32 /* AppDelegate.swift */; };
 		543AB1102327F67A005B0E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB10F2327F67A005B0E32 /* ViewController.swift */; };
 		543AB1132327F67A005B0E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543AB1112327F67A005B0E32 /* Main.storyboard */; };
@@ -33,7 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5061A025232BF6A4008F3618 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		5061A027232BF6CA008F3618 /* UserAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddViewController.swift; sourceTree = "<group>"; };
+		5061A029232BF71B008F3618 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5061A02B232BF808008F3618 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		5061A032232C5F1F008F3618 /* MyUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserTableViewCell.swift; sourceTree = "<group>"; };
+		5061A034232C7253008F3618 /* imageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageHelper.swift; sourceTree = "<group>"; };
 		50E2D574232A8B5500E95BA2 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		50E2D576232A9B8B00E95BA2 /* CreateProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProjectViewController.swift; sourceTree = "<group>"; };
 		543AB10A2327F67A005B0E32 /* project-tracker-post-requests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-tracker-post-requests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543AB10D2327F67A005B0E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		543AB10F2327F67A005B0E32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +59,7 @@
 		543AB1252327F718005B0E32 /* project_tracker_post_requestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_tracker_post_requestsTests.swift; sourceTree = "<group>"; };
 		543AB1272327F718005B0E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		543AB12D2327F755005B0E32 /* testing-json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "testing-json.json"; sourceTree = "<group>"; };
-		543AB12F2327F803005B0E32 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Project.swift; path = "project-tracker-post-requestsTests/Project.swift"; sourceTree = SOURCE_ROOT; };
+		543AB12F2327F803005B0E32 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Project.swift; path = "project-tracker-post-requests/Model/Project.swift"; sourceTree = SOURCE_ROOT; };
 		543AB133232A738B005B0E32 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		543AB135232A73B7005B0E32 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		543AB137232A7414005B0E32 /* ProjectAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAPIClient.swift; sourceTree = "<group>"; };
@@ -69,6 +83,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50E2D578232A9B9000E95BA2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				543AB133232A738B005B0E32 /* AppError.swift */,
+				50E2D574232A8B5500E95BA2 /* Secrets.swift */,
+				543AB137232A7414005B0E32 /* ProjectAPIClient.swift */,
+				543AB135232A73B7005B0E32 /* NetworkHelper.swift */,
+				5061A02B232BF808008F3618 /* UserApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		50E2D579232A9B9C00E95BA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5061A034232C7253008F3618 /* imageHelper.swift */,
+				543AB10F2327F67A005B0E32 /* ViewController.swift */,
+				50E2D576232A9B8B00E95BA2 /* CreateProjectViewController.swift */,
+				5061A025232BF6A4008F3618 /* UserViewController.swift */,
+				5061A027232BF6CA008F3618 /* UserAddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50E2D57A232A9BB600E95BA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				543AB12F2327F803005B0E32 /* Project.swift */,
+				5061A029232BF71B008F3618 /* UserModel.swift */,
+				5061A032232C5F1F008F3618 /* MyUserTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		543AB1012327F67A005B0E32 = {
 			isa = PBXGroup;
 			children = (
@@ -90,18 +138,15 @@
 		543AB10C2327F67A005B0E32 /* project-tracker-post-requests */ = {
 			isa = PBXGroup;
 			children = (
+				50E2D57A232A9BB600E95BA2 /* Model */,
+				50E2D579232A9B9C00E95BA2 /* Controller */,
+				50E2D578232A9B9000E95BA2 /* API */,
 				543AB10D2327F67A005B0E32 /* AppDelegate.swift */,
-				543AB10F2327F67A005B0E32 /* ViewController.swift */,
-				543AB12F2327F803005B0E32 /* Project.swift */,
-				543AB133232A738B005B0E32 /* AppError.swift */,
-				543AB135232A73B7005B0E32 /* NetworkHelper.swift */,
-				543AB137232A7414005B0E32 /* ProjectAPIClient.swift */,
 				543AB1112327F67A005B0E32 /* Main.storyboard */,
 				543AB1142327F67C005B0E32 /* Assets.xcassets */,
 				543AB1162327F67C005B0E32 /* LaunchScreen.storyboard */,
 				543AB1192327F67C005B0E32 /* Info.plist */,
 				543AB12D2327F755005B0E32 /* testing-json.json */,
-				50E2D574232A8B5500E95BA2 /* Secrets.swift */,
 			);
 			path = "project-tracker-post-requests";
 			sourceTree = "<group>";
@@ -218,11 +263,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				543AB134232A738B005B0E32 /* AppError.swift in Sources */,
+				5061A035232C7253008F3618 /* imageHelper.swift in Sources */,
+				5061A026232BF6A4008F3618 /* UserViewController.swift in Sources */,
 				543AB1102327F67A005B0E32 /* ViewController.swift in Sources */,
+				5061A033232C5F1F008F3618 /* MyUserTableViewCell.swift in Sources */,
+				50E2D577232A9B8B00E95BA2 /* CreateProjectViewController.swift in Sources */,
 				543AB136232A73B7005B0E32 /* NetworkHelper.swift in Sources */,
 				50E2D575232A8B5500E95BA2 /* Secrets.swift in Sources */,
 				543AB138232A7414005B0E32 /* ProjectAPIClient.swift in Sources */,
+				5061A028232BF6CA008F3618 /* UserAddViewController.swift in Sources */,
+				5061A02A232BF71B008F3618 /* UserModel.swift in Sources */,
 				543AB139232A7463005B0E32 /* Project.swift in Sources */,
+				5061A02C232BF808008F3618 /* UserApi.swift in Sources */,
 				543AB10E2327F67A005B0E32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
